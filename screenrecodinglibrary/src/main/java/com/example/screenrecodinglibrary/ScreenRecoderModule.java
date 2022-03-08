@@ -33,6 +33,11 @@ public class ScreenRecoderModule {
     public static int mScreenDensity;
     private static final int REQUEST_CODE = 1000;
 
+
+    public static void showToat(Activity activity){
+        Toast.makeText(activity, "HERE", Toast.LENGTH_SHORT).show();
+    }
+
     public static void startScreenRecoder(Activity activity) {
         Dexter.withActivity(activity).withPermissions(
                 Manifest.permission.RECORD_AUDIO,
