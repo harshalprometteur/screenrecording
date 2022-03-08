@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.screenrecodinglibrary.ScreenRecoder;
+import com.example.screenrecodinglibrary.ScreenRecoderModule;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         textTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "HEEE", Toast.LENGTH_SHORT).show();
+
             }
         });
     }
